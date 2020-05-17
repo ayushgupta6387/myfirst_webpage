@@ -1,0 +1,135 @@
+ /* CSS RESET */
+ body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('gym.jpeg') no-repeat center center/cover;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+.left {
+
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+
+.left img {
+    width: 70px;
+    /* filter: invert(100%);-->this function change the colour of image black to white vice-versa */
+    border: none;
+    margin: auto;
+}
+
+.left div {
+    text-align: center;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.mid {
+
+    display: block;
+    width: 35%;
+    margin: 25px auto;
+
+}
+
+.right {
+    position: absolute;
+    right: 4px;
+    top: 33px;
+    /* border: 2px solid rgb(21, 6, 77); */
+    display: inline-block;
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 17px;
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 6px;
+
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Baloo Thambi 2', cursive;
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.container {
+    /* border: 2px solid white; */
+    margin: 70px 75px;
+    padding: 75px;
+    width: 40%;
+    border-radius: 14px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 342px;
+    padding: 10px;
+    /* border: 2px solid brown; */
+    margin: 6px auto;
+    font-size: 19px;
+    border-radius: 23px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+#first {
+    color: white;
+    display: block;
+    width: 52%;
+    margin: 6px auto;
+    border-radius: 10px;
+    padding: 4px;
+    background-color: black;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+#second {
+    color: white;
+    display: block;
+    width: 28%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: black;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Baloo Thambi 2', cursive;
+}
